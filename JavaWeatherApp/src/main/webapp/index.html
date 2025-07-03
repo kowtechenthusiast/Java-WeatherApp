@@ -1,10 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Weather App</title>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #0f2027, #203a43, #2c5364); /* dark blue gradient */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      padding: 40px;
+      text-align: center;
+      position: relative;
+      bottom: 10%;
+    }
+
+    .logo {
+      width: 200px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    p.description {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin-bottom: 30px;
+      color: #dfe6e9;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px 30px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      backdrop-filter: blur(8px);
+    }
+
+    input[type="text"] {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 5px;
+      border: none;
+      width: 250px;
+      margin-right: 10px;
+      outline: none;
+    }
+
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #00bcd4;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #0097a7;
+    }
+
+    @media (max-width: 600px) {
+      form {
+        flex-direction: column;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
 </head>
 <body>
+
+  <div class="container">
+    <!-- 🖼️ Logo/Image -->
+    <img src="images/weather-logo.png" alt="Weather Icon" class="logo">
+
+    <!-- 🏷️ Title and Description -->
+    <h1>Weather Forecast</h1>
+    <p class="description">
+      Get live weather updates including temperature, humidity, wind speed, and overall conditions. Just enter your city and hit the button!
+    </p>
+
+    <!-- 📬 Input Form -->
+    <form action="MyServlet" method="post">
+      <input type="text" name="city" placeholder="Enter City Name" required>
+      <input type="submit" value="Get Weather">
+    </form>
+  </div>
 
 </body>
 </html>
