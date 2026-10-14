@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed>
+  <item>
+    <EngineInventoryId>1000000001</EngineInventoryId>
+    <EngineLocationId>STORE_NYC_01</EngineLocationId>
+    <Name>New York Main Store</Name>
+    <IsActive>true</IsActive>
+    <Address>{"Address1":"146 Broadway","City":"New York","Province":"NY","Country":"US","Zip":"10001"}</Address>
+    <Incoming>0</Incoming>
+    <OnHand>25</OnHand>
+    <Available>20</Available>
+    <Committed>5</Committed>
+    <Reserved>0</Reserved>
+    <Damaged>0</Damaged>
+    <SafetyStock>5</SafetyStock>
+    <SearchEngineProductId>7613541</SearchEngineProductId>
+  </item>
+
+  <item>
+    <EngineInventoryId>1000000002</EngineInventoryId>
+    <EngineLocationId>STORE_NYC_01</EngineLocationId>
+    <Name>New York Main Store</Name>
+    <IsActive>true</IsActive>
+    <Address>{"Address1":"146 Broadway","City":"New York","Province":"NY","Country":"US","Zip":"10001"}</Address>
+    <Incoming>10</Incoming>
+    <OnHand>15</OnHand>
+    <Available>15</Available>
+    <Committed>0</Committed>
+    <Reserved>0</Reserved>
+    <Damaged>0</Damaged>
+    <SafetyStock>2</SafetyStock>
+    <SearchEngineProductId>7577973</SearchEngineProductId>
+  </item>
+
+  <item>
+    <EngineInventoryId>2000000001</EngineInventoryId>
+    <EngineLocationId>STORE_SFO_02</EngineLocationId>
+    <Name>San Francisco Hub</Name>
+    <IsActive>true</IsActive>
+    <Address>{"Address1":"500 Market St","City":"San Francisco","Province":"CA","Country":"US","Zip":"94105"}</Address>
+    <Incoming>0</Incoming>
+    <OnHand>8</OnHand>
+    <Available>8</Available>
+    <Committed>0</Committed>
+    <Reserved>0</Reserved>
+    <Damaged>0</Damaged>
+    <SafetyStock>1</SafetyStock>
+    <SearchEngineProductId>7597664</SearchEngineProductId>
+  </item>
+</feed>
