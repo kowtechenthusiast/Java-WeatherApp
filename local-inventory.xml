@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed>
   <item>
+    <ProductVariantSku>SKU-1001</ProductVariantSku>
     <EngineInventoryId>1000000001</EngineInventoryId>
     <EngineLocationId>STORE_NYC_01</EngineLocationId>
     <Name>New York Main Store</Name>
@@ -17,6 +18,7 @@
   </item>
 
   <item>
+    <ProductVariantSku>SKU-1002</ProductVariantSku>
     <EngineInventoryId>1000000002</EngineInventoryId>
     <EngineLocationId>STORE_NYC_01</EngineLocationId>
     <Name>New York Main Store</Name>
@@ -33,6 +35,7 @@
   </item>
 
   <item>
+    <ProductVariantSku>SKU-1003</ProductVariantSku>
     <EngineInventoryId>2000000001</EngineInventoryId>
     <EngineLocationId>STORE_SFO_02</EngineLocationId>
     <Name>San Francisco Hub</Name>
