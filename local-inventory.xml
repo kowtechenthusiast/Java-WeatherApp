@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed>
   <item>
-    <ProductVariantSku>SKU-1001</ProductVariantSku>
+    <ProductVariantSku>TOY125</ProductVariantSku>
     <EngineInventoryId>1000000001</EngineInventoryId>
     <EngineLocationId>STORE_NYC_01</EngineLocationId>
     <Name>New York Main Store</Name>
@@ -14,11 +14,11 @@
     <Reserved>0</Reserved>
     <Damaged>0</Damaged>
     <SafetyStock>5</SafetyStock>
-    <SearchEngineProductId>7613541</SearchEngineProductId>
+    <SearchEngineProductId>22363811053628</SearchEngineProductId>
   </item>
 
   <item>
-    <ProductVariantSku>SKU-1002</ProductVariantSku>
+    <ProductVariantSku>TOY126</ProductVariantSku>
     <EngineInventoryId>1000000002</EngineInventoryId>
     <EngineLocationId>STORE_NYC_01</EngineLocationId>
     <Name>New York Main Store</Name>
@@ -31,11 +31,11 @@
     <Reserved>0</Reserved>
     <Damaged>0</Damaged>
     <SafetyStock>2</SafetyStock>
-    <SearchEngineProductId>7577973</SearchEngineProductId>
+    <SearchEngineProductId>22363811119164</SearchEngineProductId>
   </item>
 
   <item>
-    <ProductVariantSku>SKU-1003</ProductVariantSku>
+    <ProductVariantSku>TOY127</ProductVariantSku>
     <EngineInventoryId>2000000001</EngineInventoryId>
     <EngineLocationId>STORE_SFO_02</EngineLocationId>
     <Name>San Francisco Hub</Name>
@@ -48,6 +48,6 @@
     <Reserved>0</Reserved>
     <Damaged>0</Damaged>
     <SafetyStock>1</SafetyStock>
-    <SearchEngineProductId>7597664</SearchEngineProductId>
+    <SearchEngineProductId>22363811184700</SearchEngineProductId>
   </item>
 </feed>
