@@ -9,7 +9,7 @@
     <Address>{"Address1":"146 Broadway","City":"New York","Province":"NY","Country":"US","Zip":"10001"}</Address>
     <Incoming>0</Incoming>
     <OnHand>25</OnHand>
-    <Available>20</Available>
+    <Available>19</Available>
     <Committed>5</Committed>
     <Reserved>0</Reserved>
     <Damaged>0</Damaged>
